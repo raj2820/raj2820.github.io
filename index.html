@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<style>
+    #container{
+        background-color: #06283D;
+        height: 600px;
+        width: 100%;
+        width: 100%;
+    height: 659.4px;
+    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right.png), url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right2.png),url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, right, left;
+    background-size: contain;
+  
+    position: absolute;
+    }
+    .side{
+        background: #256D85;
+        color: black;
+    }
+    .profile-pic{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        background-color: white;
+        border-radius: 50%;
+      padding: 15px;
+    }
+    .inner-pp{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        background-color: red;
+        border-radius: 50%;
+     
+    }
+</style>
+</head>
+<body>
+    <div id="container">
+        <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Click</button>
+
+        <div class="offcanvas offcanvas-start side" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           
+          </div>
+          <div class="col-4">
+            <div id="list-example" class="list-group">
+              <a class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" href="#list-item-1">Item 1</a>
+              <a class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" href="#list-item-2">Item 2</a>
+              <a class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" href="#list-item-3">Item 3</a>
+              <a class="list-group-item list-group-item-action" data-bs-dismiss="offcanvas" href="#list-item-4" >Item 4</a>
+            </div>
+          </div>
+          <button style="width: 50px;">hi</button>
+          <div class="offcanvas-body">
+            <p>Try scrolling the rest of the page to see this option in action.</p>
+          </div>
+        </div>
+        <div class="profile-pic">
+<div class="inner-pp">
+
+</div>
+        </div>
+    </div>
+    <div class="row">
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1 " class="active">Item 1</h4>
+            <p>...</p>
+            <h4 id="list-item-2">Item 2</h4>
+            <p>...</p>
+            <h4 id="list-item-3">Item 3</h4>
+            <p>...</p>
+            <h4 id="list-item-4">Item 4</h4>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
