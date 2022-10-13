@@ -15,7 +15,7 @@
         background-color: #171616;
         
         width: 100%;
-        width: 100%;
+        height: auto;
     height: 659.4px;
     background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right.png), url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right2.png),url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -60,7 +60,7 @@ height: 50px;
   margin: auto;
   height: 100%;
   margin-top: 40px;
-  margin-bottom: 80px;
+
   
 }
 #carousel-container >img{
@@ -71,6 +71,11 @@ height: 50px;
  margin-top: 40px;
   text-align: center;
   color: white;
+}
+#more-proj{
+  display: flex;
+align-self: flex-end;
+
 }
 </style>
 </head>
@@ -139,6 +144,17 @@ height: 50px;
             </button>
           </div>
         </div>
+        <button id="more-proj" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">More Projects</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+   
+  </div>
+</div>
     </div>
     
    
