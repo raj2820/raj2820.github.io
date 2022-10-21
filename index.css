@@ -88,8 +88,19 @@ align-self: flex-end;
 }
 #footer{
     width: 100%;
-    height: 50px;
-    background: #222222;;
+    padding: 10px;
+    background: #222222;
+  text-align: center;
+    color: rgb(179, 175, 175);
+    font-size: 10px;
+    position: absolute;
+   margin-top: 40px;
+}
+#graph{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
 }
 .me{
     width: 80%;
@@ -107,6 +118,8 @@ padding: 50px;
     grid-template-columns: repeat(2 , 1fr);
     grid-template-rows: auto;
     margin-top: 40px;
+  
+    text-align: center;
 }
 .About{
     margin: auto;
@@ -121,12 +134,13 @@ width: 100%;
     .gitHub{
         grid-template-columns: 1fr;
         grid-template-rows: (3,auto);
+        gap: 20px;
     }
     .gitHub>div :first-child{
-        width: 50%;
+        width: 80%;
     }
     .gitHub>div :second-child{
-        width: 50%;
+        width: 80%;
     }
 
 
@@ -136,16 +150,18 @@ width: 100%;
 .me{
     grid-template-columns:  1fr;
     grid-template-rows: auto ;
+    gap: 20px;
 }
 .gitHub{
     grid-template-columns: 1fr;
     grid-template-rows: (3,auto);
+    gap: 20px;
 }
 .gitHub>div :first-child{
-    width: 50%;
+    width: 80%;
 }
 .gitHub>div :second-child{
-    width: 50%;
+    width: 80%;
 }
 
 }
