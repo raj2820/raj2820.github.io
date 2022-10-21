@@ -10,94 +10,11 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<style>
-    #container{
-        background-color: #0d1117;
-        
-        width: 100%;
-        height: auto;
-  
-    background-image: url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right.png), url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right2.png),url(https://www.pluralsight.com/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: bottom right, right, left;
-    background-size: contain;
-  
-    position: absolute;
-    }
-    .side{
-        background: #222222;;
-        color: white;
-    }
-    .profile-pic{
-        width: 200px;
-        height: 200px;
-        margin: auto;
-        background-color: #9CADA4;
-       
-     padding: 5px;
-     z-index: 99;
-     border-bottom-left-radius: 50%;
-     border-bottom-right-radius: 30%;
-     border-top-left-radius: 30%;
-     border-top-right-radius: 50%;
-    }
- .profile-pic img{
-    width: 100%;
-    border-radius: 50%;
-    transition: transform 1s;
-  }
-  .profile-pic img :hover{
-    transform: scale(1.2);
-  }
-.btn{
-  border: 0px;
-  color: white;
-height: 50px;
 
-}
-#carousel-container{
-  width: 80%;
-  margin: auto;
-  height: 100%;
-  margin-top: 40px;
-
-  
-}
-#carousel-container >img{
-  width: 100%;
-  border-radius: 50px;
-}
-#proj{
- margin-top: 40px;
-  text-align: center;
-  color: white;
-}
-#more-proj{
-  display: flex;
-align-self: flex-end;
-
-}
-.stats{
-  width: 150px;
- 
-}
-.stats> img{
-  width: 80%;
-}
-.navbar a{
-  color:white;
-}
-.dropdown-menu a{
-  color: black;
-  font-size: medium;
-}
-</style>
+<link rel="stylesheet" href="index.css">
 </head>
 <body onload="alertDev()">
 
-
-
-    <div id="container" onclick="alertDev()">
       <nav  class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">RAJ SHINDE</a>
@@ -129,11 +46,26 @@ align-self: flex-end;
           </div>
         </div>
       </nav>
-
-        <div class="profile-pic">
+      <div id="container" onclick="alertDev()">
+     <div class="me">
+      <div class="profile-pic">
           
-<img src="https://media-exp1.licdn.com/dms/image/C4D03AQH3UGAjW8sG3Q/profile-displayphoto-shrink_800_800/0/1654197474918?e=1671062400&v=beta&t=olYTzQkohHWdp6WHb6QKO0-DSJ7GxbmVwEartyF9VDI" alt="raj-linked-in-pp">
-        </div>
+        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH3UGAjW8sG3Q/profile-displayphoto-shrink_800_800/0/1654197474918?e=1671062400&v=beta&t=olYTzQkohHWdp6WHb6QKO0-DSJ7GxbmVwEartyF9VDI" alt="raj-linked-in-pp">
+                </div>
+<div class="my-name">
+<h1>RAJ SHINDE</h1>
+<H3 style="color: white;">JAVA BACKEND DEVELOPER</H3>
+</div>
+
+     </div>
+  <div class="About">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, reprehenderit blanditiis.
+   In, quasi consequuntur earum esse libero porro, repudiandae maxime voluptatum, quos doloribus ex atque vero! Porro rerum aliquam quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nisi a aliquam nostrum illo quos qui voluptates maiores ratione excepturi. 
+   Eius quod, ratione soluta id animi praesentium dignissimos distinctio! Labore.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iste cumque soluta voluptate labore. 
+  Eligendi aliquid voluptatum vero. Ut provident autem libero hic totam! Quia nostrum dolore quas incidunt cumque.
+  </p>
+  </div>
         <h1 id="proj">Projects</h1>
         <div title="🔥Raj's projects" id="carousel-container">
           <div id="carouselExampleCaptions" class="carousel slide carousel-Danger" keyboard="true" pause="hover" interval="1000" data-bs-touch="true" data-bs-ride="carousel">
@@ -175,19 +107,12 @@ align-self: flex-end;
             </button>
           </div>
         </div>
-        <button onclick="alertDev()" id="more-proj" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">More Projects</button>
 
-<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body small">
-   
-  </div>
- 
-</div>
-<div class="stats">
+
+
+
+<div class="gitHub">
+  <div class="stats">
 
                                                                                                 
     <a title="Raj's Git Stats" href="https://github.com/raj2820/github-readme-stats"><img  src="https://github-readme-stats.vercel.app/api?username=raj2820&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&bg_color=0D1117" ></a>
@@ -195,17 +120,18 @@ align-self: flex-end;
 </div>
 <div class="stats">
  
-    <a href="https://github.com/raj2820/github-readme-streak-stats">
-        <img title="🔥 Get streak stats of raj2820" alt="raj2820 streak" src="https://github-readme-streak-stats.herokuapp.com/?user=raj2820&hide_border=true&theme=react&hide_border=true&bg_color=0D1117"/>
-    </a>
-
-
-  
-
- 
+  <a href="https://github.com/raj2820/github-readme-streak-stats">
+      <img title="🔥 Get streak stats of raj2820" alt="raj2820 streak" src="https://github-readme-streak-stats.herokuapp.com/?user=raj2820&hide_border=true&theme=react&hide_border=true&bg_color=0D1117"/>
+  </a>
 </div>
 <div class="stats">
   <a href="https://github.com/raj2820/github-readme-activity-graph"><img title="Raj's Git contribution Graph" alt="raj2820 Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=raj2820&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+
+</div>
+
+
+</div>
+<div id="footer">
 
 </div>
     </div>
