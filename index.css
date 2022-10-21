@@ -1,8 +1,8 @@
 body{
-    background-color: #CEE5D0;
+    background-color:honeydew;
   }
     #container{
-        background-color: #CEE5D0;
+        background-color:honeydew;
         margin-top: 60px;
         width: 100%;
         height: auto;
@@ -81,7 +81,8 @@ align-self: flex-end;
   width: 100%;
   position: fixed;
   z-index: 1000;
-  background-color:#94B49F;
+  /* background-color:#94B49F; */
+  background-color:rgb(252, 153, 117);
 }
 .dropdown-menu a{
   color: black;
@@ -93,7 +94,7 @@ align-self: flex-end;
 #footer{
     width: 100%;
     padding: 10px;
-    background-color:#94B49F;
+    background-color:rgb(252, 153, 117);
   text-align: center;
     color: rgb(42, 41, 41);
     font-size: 10px;
@@ -123,6 +124,7 @@ grid-template-columns: repeat(2, 1fr);
 text-align: center;
 margin-top: 40px;
 padding: 50px;
+color: rgb(42, 41, 41);
 }
 .gitHub{
     width: 80%;
