@@ -68,7 +68,7 @@ align-self: flex-end;
 
 }
 .stats{
-  width: 150px;
+  width:100%;
  
 }
 .stats> img{
@@ -107,4 +107,45 @@ padding: 50px;
     grid-template-columns: repeat(2 , 1fr);
     grid-template-rows: auto;
     margin-top: 40px;
+}
+.About{
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+}
+@media all and (min-width:768px) and (max-width: 1104px){
+  /*  #footer{
+width: 100%;
+    }*/
+
+    .gitHub{
+        grid-template-columns: 1fr;
+        grid-template-rows: (3,auto);
+    }
+    .gitHub>div :first-child{
+        width: 50%;
+    }
+    .gitHub>div :second-child{
+        width: 50%;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px)  { 
+.me{
+    grid-template-columns:  1fr;
+    grid-template-rows: auto ;
+}
+.gitHub{
+    grid-template-columns: 1fr;
+    grid-template-rows: (3,auto);
+}
+.gitHub>div :first-child{
+    width: 50%;
+}
+.gitHub>div :second-child{
+    width: 50%;
+}
+
 }
