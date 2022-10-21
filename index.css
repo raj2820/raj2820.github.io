@@ -86,6 +86,9 @@ align-self: flex-end;
   color: black;
   font-size: medium;
 }
+.dropdown-menu a{
+    color: white;
+}
 #footer{
     width: 100%;
     padding: 10px;
