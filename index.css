@@ -140,6 +140,9 @@ padding: 50px;
     text-align: justify;
     color: black;
 }
+.contact{
+  margin-top: 15px;
+}
 @media all and (min-width:768px) and (max-width: 1104px){
   /*  #footer{
 width: 100%;
