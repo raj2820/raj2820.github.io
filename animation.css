@@ -1,0 +1,134 @@
+.sun{
+
+    width: 100px;
+    height: 100px;
+    /* background-color: orange; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(15% - 100px/2);
+    left: calc(15% - 100px/2);
+    
+    
+    }
+    .html{
+        --moveX:60px;
+        width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+    animation: solar 4s infinite linear ;
+    }
+    
+    .js{
+        --moveX:60px;
+        width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+    animation: solar 4s infinite linear ;
+    }
+    .css{
+        --moveX:60px;
+        width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+        animation: solar 3.5s infinite linear ;
+    }
+    .java{
+        --moveX:60px;
+        width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+        animation: solar 3.5s infinite linear ;
+    
+    }
+    .js2{
+        --moveX:60px;
+        width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+        animation: solar 4s infinite linear ;
+    
+    }
+    .bootstrap{
+        --moveX:60px;
+        width: 40px;
+    height: 40px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+        animation: solar 4.5s infinite linear ;
+    
+    }
+    .hibernate{
+        --moveX:60px;
+        width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+        animation: solar 5s infinite linear ;
+    
+    }
+    .sb{
+        --moveX:60px;
+        width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+        animation: solar 4s infinite linear ;
+    
+    }
+    .mysql{
+        --moveX:60px;
+        width: 20px;
+    height: 20px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    position: relative;
+    top: calc(0% - 20px/2);
+    left: calc(0% - 20px/2);
+    transform: translate(60px);
+        animation: solar 4s infinite linear ;
+    
+    }
+    @keyframes solar {
+        from{
+            transform: rotate(0deg) translate(var( --moveX));
+        }to{
+            transform: rotate(360deg) translate( var(--moveX));
+        }
+    }
