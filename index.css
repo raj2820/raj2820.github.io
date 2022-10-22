@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body{
-    background-color:honeydew;
-  }
+  background-color: #1A1A1D;
+}
     #container{
-        background-color:honeydew;
+       background-color: #1A1A1D;
         margin-top: 60px;
         width: 100%;
         height: auto;
@@ -14,36 +15,199 @@ body{
   color: black;
     position: absolute;
     }
-    .side{
-        background: #222222;;
-        color: white;
-    }
-    .profile-pic{
-        width: 200px;
-        height: 200px;
-        margin: auto;
-        background-color: #9CADA4;
-       
-     padding: 5px;
-     z-index: 99;
-     border-bottom-left-radius: 50%;
-     border-bottom-right-radius: 30%;
-     border-top-left-radius: 30%;
-     border-top-right-radius: 50%;
-    }
- .profile-pic img{
-    width: 100%;
-    border-radius: 50%;
-    transition: transform 1s;
-  }
-  .profile-pic img :hover{
-    transform: scale(1.2);
-  }
-.btn{
-  border: 0px;
+ 
+.navbar a{
+  color:white;
+}
+.navbar{
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  /* background-color:#94B49F; */
+  background: #212121;
+  opacity: 0.8;
+}
+.dropdown-menu a{
   color: white;
-height: 50px;
+  font-size: medium;
+}
+.dropdown-menu a{
+    color: white;
+}
+#footer{
+    width: 100%;
+    padding: 10px;
+    background: #212121;
+  text-align: center;
+  color: white;
+    font-size: 10px;
+    position: absolute;
+   margin-top: 40px;
+}
+#footer a{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.dropdown-menu{
+  background: #212121;
+}
 
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color:#222222;
+
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.5px;
+  bottom: 0;
+  left: 0;
+ 
+  background-color:  #a3b49b;
+  transform-origin: center;
+  transition: transform 0.25s ease;
+}
+.hover-underline-animation:hover{
+  cursor: pointer
+}
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin:center;
+ ;
+}
+#name h1{
+  font-size: 100px;
+  color: white;
+}
+#name h3{
+  font-size: 50px;
+  color: white;
+}
+#intro{
+  /* background-color: #1A1A1D; */
+  background-image: linear-gradient(180deg, #6F2232,#1A1A1D);
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#res-button{
+  width: 40%;
+  margin: auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  gap: 20px;
+}
+.rbtn{
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+}
+#about{
+  background: white;
+  width: 100%;
+margin-bottom: 80px;
+}
+#image-profile{
+  padding: 80px 0% 80px 0%;
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+#image-profile div{
+  border: 1px solid white;
+}
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-color: #9CADA4;
+ 
+padding: 5px;
+z-index: 99;
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 30%;
+border-top-left-radius: 30%;
+border-top-right-radius: 50%;
+}
+.profile-pic img{
+width: 100%;
+border-radius: 50%;
+transition: transform 1s;
+}
+#education{
+  width: 100%;
+  margin-bottom: 80px;
+}
+#inner-edu{
+  padding: 0px 0% 80px 0%;
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+ 
+}
+/* #inner-edu>div{
+  border: 1px solid white;
+ 
+} */
+#edu-image img{
+  width: 100%;
+ 
+}
+#edu-details{
+  padding-top: 90px;
+}
+#edu-details div{
+width: 90%;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+/* background-image: linear-gradient(180deg,#950740,#c3073f); */
+background-color: #4e4e50;
+border-radius: 5px;
+margin: auto;
+padding: 10px;
+text-align: center;
+margin-top: 25px;
+}
+#skills{
+  width: 100%;
+ 
+}
+#skill-set{
+  display: grid;
+  width: 80%;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,auto);
+gap: 10px;
+margin: auto;
+
+}
+#skill-set div{
+
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+#skill-set img{
+
+  width: 50%;
+}
+#projects{
+ 
+  width: 100%;
 }
 #carousel-container{
   width: 80%;
@@ -57,130 +221,101 @@ height: 50px;
   width: 100%;
   border-radius: 50px;
 }
-#proj{
- margin-top: 40px;
-  text-align: center;
-  color: white;
-}
-#more-proj{
-  display: flex;
-align-self: flex-end;
-
-}
-.stats{
-  width:100%;
- 
-}
-.stats> img{
-  width: 80%;
-}
-.navbar a{
-  color:white;
-}
-.navbar{
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-  /* background-color:#94B49F; */
-  background-color:rgb(252, 153, 117);
-}
-.dropdown-menu a{
-  color: black;
-  font-size: medium;
-}
-.dropdown-menu a{
-    color: white;
-}
-#footer{
-    width: 100%;
-    padding: 10px;
-    background-color:rgb(252, 153, 117);
-  text-align: center;
-    color: rgb(42, 41, 41);
-    font-size: 10px;
-    position: absolute;
-   margin-top: 40px;
-}
-#footer a{
-    text-align: center;
-    color: rgb(42, 41, 41);
-    font-size: 10px;
-}
-.dropdown-menu{
-  background-color:rgb(252, 153, 117);
-}
-
-#graph{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    margin-top: 20px;
-}
-.me{
-    width: 80%;
-    display: grid;
-margin: auto;
-grid-template-columns: repeat(2, 1fr);
-text-align: center;
-margin-top: 40px;
-padding: 50px;
-color: rgb(42, 41, 41);
-}
-.gitHub{
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: auto;
-    margin-top: 40px;
-  
-    text-align: center;
-}
-.About{
-    margin: auto;
-    width: 70%;
-    text-align: justify;
-    color: black;
-}
-.contact{
-  margin-top: 15px;
-}
 @media all and (min-width:768px) and (max-width: 1104px){
   /*  #footer{
 width: 100%;
     }*/
-
-    .gitHub{
-        grid-template-columns: 1fr;
-        grid-template-rows: (3,auto);
-        gap: 20px;
+    #name h1{
+      font-size: 50px;
+      color: white;
     }
-    .gitHub>div :first-child{
-        width: 80%;
+    #name h3{
+      font-size: 25px;
+      color: white;
     }
-    .gitHub>div :second-child{
-        width: 80%;
+    #image-profile{
+  
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+     
     }
-
-
+    #inner-edu{
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
+    #edu-details{
+      padding-top:0px;
+    }
+    #skill-set{
+   
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,auto);
+   
+    
+    }
 }
 
 @media only screen and (max-width: 768px)  { 
-.me{
-    grid-template-columns:  1fr;
-    grid-template-rows: auto ;
-    gap: 20px;
-}
-.gitHub{
+  #name h1{
+    font-size: 50px;
+    color: white;
+  }
+  #name h3{
+    font-size: 25px;
+    color: white;
+  }
+  #image-profile{
+  
     grid-template-columns: 1fr;
-    grid-template-rows: (3,auto);
-    gap: 20px;
+    grid-template-rows: auto auto;
+   
+  }
+  #inner-edu{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  #edu-details{
+    padding-top:0px;
+  }
+  #skill-set{
+   
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,auto);
+   
+    
+    }
 }
-.gitHub>div :first-child{
-    width: 80%;
-}
-.gitHub>div :second-child{
-    width: 80%;
-}
-
+@media only screen and (max-width: 518px)  { 
+  #name h1{
+    font-size: 30px;
+    color: white;
+  }
+  #name h3{
+    font-size: 15px;
+    color: white;
+  }
+  #res-button{
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(2,auto);
+  }
+  #image-profile{
+  
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+   
+  }
+  #inner-edu{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  #edu-details{
+    padding-top:0px;
+  }
+  #skill-set{
+   
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,auto);
+   
+    
+    }
 }

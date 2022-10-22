@@ -15,7 +15,7 @@
 </head>
 <body onload="alertDev()">
 
-      <nav  class="navbar navbar-expand-lg">
+      <nav  class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">🆁🅰🅹 🆂🅷🅸🅽🅳🅴</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,110 +26,171 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
               </li>
+           
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link active" aria-current="page" href="#about" data-scroll style="color: white;">About</a>
               </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 PROJECTS
-                </a>
-                <ul class="dropdown-menu  ">
-                  <li><a class="dropdown-item" href="#">FRONTEND</a></li>
-                  <li><a class="dropdown-item" href="#">BACKEND</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#projects" data-scroll style="color: white;"> PROJECTS</a>
               </li>
-             
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#footer" data-scroll style="color: white;"> CONTACT</a>
+              </li>
             </ul>
           
           </div>
         </div>
       </nav>
-      <div id="container" >
-     <div class="me">
-      <div class="profile-pic">
-          
-        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH3UGAjW8sG3Q/profile-displayphoto-shrink_800_800/0/1654197474918?e=1671062400&v=beta&t=olYTzQkohHWdp6WHb6QKO0-DSJ7GxbmVwEartyF9VDI" alt="raj-linked-in-pp">
-                </div>
-<div class="my-name">
-<h1>RAJ SHINDE</h1>
-<H3 style=" color: rgb(42, 41, 41);">JAVA BACKEND DEVELOPER</H3>
+      <div id="container">
+
+<div id="intro">
+<div id="name">
+  <h1>RAJ RANDHIR SHINDE</h1>
+  <H3>DEVELOPER | JAVA BACKEND</H3>
+  <div id="res-button">
+  <button onclick="resume()" class="rbtn">Resume</button>
+  <button class="rbtn">Contact</button>
+</div>
 </div>
 
-     </div>
-  <div class="About">
-<p style="color: black;">A motivated software developer from Masai School. With 1200+ hours of coding with 9-9-6 curriculum that means 9am to 9pm 6Days a week over 8 months of intensive training at Masai School, seeking a full-time software developer position to deliver solutions to business needs.
-   I am proficient in JAVA, JavaScript, and related web technologies specializing in JAVA Backend.
-  </p>
+</div>
+<H1 style="text-align: center; color:#c3073f" >ABOUT ME</H1>
+<div id="about">
+<div id="image-profile">
+<div id="image">
+  <div class="profile-pic">
+                
+              <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH3UGAjW8sG3Q/profile-displayphoto-shrink_800_800/0/1654197474918?e=1671062400&v=beta&t=olYTzQkohHWdp6WHb6QKO0-DSJ7GxbmVwEartyF9VDI" alt="raj-linked-in-pp">
+                      </div>
+</div>
+<div id="desc">
+  <p style="color: black; text-align:center">Raj Shinde is an INSTRUMENTATION ENGINEER by education and a motivated software developer from Masai School. With 1200+ hours of coding with 9-9-6 curriculum that means 9am to 9pm 6Days a week over 8 months of intensive training at Masai School, seeking a full-time software developer position to deliver solutions to business needs.
+    I am proficient in JAVA, JavaScript, and related web technologies specializing in JAVA Backend.
+   </p>
+</div>
+</div>
+
+
+</div>
+<h1 style="text-align: center; color:#c3073f" >EDUCATION</h1>
+
+<div id="education">
+<div id="inner-edu">
+  <div id="edu-image">
+    <img src="https://jaynikatandel.vercel.app/static/media/eduPurple.0d11a0cf.svg" alt="">
   </div>
-        <h1 id="proj" style="color: black;">Projects</h1>
-        <div title="🔥Raj's projects" id="carousel-container">
-          <div id="carouselExampleCaptions" class="carousel slide carousel-Danger" keyboard="true" pause="hover" interval="1000" data-bs-touch="true" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" >
-                <img src="pluralsight.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="himalya.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="starwars.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button title="Previous" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button title="Next" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+<div id="edu-details">
+<div id="java">
+  <h2 style="color:#6F2232;">JAVA BACKEND (Fulltime)</h2>
+  <p>Masai School, Banglore(remote) | Apr2022-Present</p>
+</div>
+<div id="instr">
+  <h2 style="color:#6F2232;">B.E(INSTRUMENTATION)</h2>
+  <p>A.C.PATIL COLLEGE OF ENGINEERING,NAVIMUMBAI | 2016-2021</p>
+</div>
+<div id="hsc">
+  <h2 style="color:#6F2232;">HSC</h2>
+  <p>Computer Science with bifocal(12th std) | 2015-2016</p>
+</div>
+</div>
+
+</div>
+</div>
+
+<h1 style="text-align: center; color:#c3073f" >SKILL SET</h1>
+
+<div id="skills">
+<div id="skill-set">
+<div>
+  <img src="https://img.icons8.com/color/344/html-5--v1.png" alt="html">
+</div>
+<div>
+  <img src="https://img.icons8.com/color/344/javascript--v1.png" alt="js">
+</div>
+<div>
+  <img src="https://img.icons8.com/color/344/java-coffee-cup-logo--v1.png" alt="java">
+</div>
+<div>
+  <img src="https://img.icons8.com/color/344/amazon-web-services.png" alt="js">
+</div>
+<div>
+  <img src="https://img.icons8.com/color/344/css3.png" alt="css">
+</div>
+<div>
+  <img src="https://img.icons8.com/color/344/bootstrap.png" alt="bootstrap">
+</div>
+<div>
+  <img src="https://www.vectorlogo.zone/logos/hibernate/hibernate-ar21.svg" alt="hibernate">
+</div>
+<div>
+  <img src="data:image/png;base64,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" alt="sb">
+</div>
+
+</div>
+</div>
+
+
+
+<h1 style="text-align: center; color:#c3073f ; margin-top: 100px;" >PROJECTS</h1>
+
+
+<div id="projects">
+  <div title="🔥Raj's projects" id="carousel-container">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-Danger" keyboard="true" pause="hover" interval="1000" data-bs-touch="true" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <img src="pluralsight.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="himalya.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="starwars.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button title="Previous" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button title="Next" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
 
 
-<h1 style="text-align: center;  color: rgb(42, 41, 41);; margin-top:40px">GITHUB STATS</h1>
-
-<div class="gitHub">
-  <div class="stats">
-
-                                                                                                
-    <a title="Raj's Git Stats" href="https://github.com/raj2820/github-readme-stats"><img  src="https://github-readme-stats.vercel.app/api?username=raj2820&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&bg_color=0D1117" ></a>
-    
 </div>
-<div class="stats">
- 
-  <a href="https://github.com/raj2820/github-readme-streak-stats">
-      <img title="🔥 Get streak stats of raj2820" alt="raj2820 streak" src="https://github-readme-streak-stats.herokuapp.com/?user=raj2820&hide_border=true&theme=react&hide_border=true&bg_color=0D1117"/>
-  </a>
-</div>
 
 
 
-</div>
-<div class="stats" id="graph">
-  <img title="Raj's Git contribution Graph" alt="raj2820 Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=raj2820&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
- 
- </div>
-<div id="footer">
+
+
+
+
+
+
+
+
+
+<div id="footer" >
   <div class="contact">
    <a href="https://github.com/raj2820" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -165,10 +226,11 @@
    
 </body>
 </html>
+<script src="index.js"></script>
 <script>
 
-  function alertDev(){
+  /* function alertDev(){
   alert("website under development ,please visit after some time");
   }
- onload.alertDev();
+ onload.alertDev(); */
 </script>
