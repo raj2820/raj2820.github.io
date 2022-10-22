@@ -116,7 +116,7 @@ body{
 .rbtn:hover{
   background:#4e4e50;
   color: white;
-  transition: 0.4s;
+  transition: 0.2s ease-in;
 }
 #about{
   background: white;
@@ -167,6 +167,7 @@ transition: transform 1s;
   gap: 20px;
  
 }
+
 /* #inner-edu>div{
   border: 1px solid white;
  
@@ -189,6 +190,11 @@ padding: 10px;
 text-align: center;
 margin-top: 25px;
 padding-left: 5px;
+transition: all 0.4s ease-in;
+}
+#edu-details div:hover{
+  transform: scale(1.2);
+  cursor: pointer;
 }
 #skills{
   width: 100%;
@@ -211,6 +217,11 @@ margin: auto;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 15px;
+  transition: transform 1s;
+}
+#skill-set div :hover{
+  transform: scale(1.2);
+  cursor: pointer;
 }
 #skill-set>div:nth-child(7){
   display: flex;
