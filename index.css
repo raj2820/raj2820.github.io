@@ -266,12 +266,12 @@ margin: auto;
   transform: scale(1.2);
   cursor: pointer;
 } */
-#skill-set>div:nth-child(7){
+#skill-set>div:nth-child(8){
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#skill-set>div:nth-child(8){
+#skill-set>div:nth-child(3){
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,7 +296,9 @@ margin: auto;
   width: 100%;
   border-radius: 50px;
 }
-
+.nav-link :hover {
+  color: #6F2232;
+}
 @media all and (min-width:768px) and (max-width: 1104px){
   /*  #footer{
 width: 100%;
