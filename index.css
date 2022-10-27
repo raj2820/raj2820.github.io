@@ -313,8 +313,13 @@ margin: auto;
  padding-bottom: 40px;
 }
 #git img{
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 1px solid white;
 border-radius: 15px;
+padding: 10px;
+}
+#git img:hover{
+  border: 1px solid #644f4f;
+  cursor: pointer;
 }
 .gitHub{
   width: 80%;
@@ -353,6 +358,9 @@ gap: 20px;
   border: 1px solid white;
   border-radius: 15px;
   padding: 10px;
+}
+#projects-div div:hover{
+ border: 1px solid  #222222;;
 }
 #projects-div img{
   width: 100%;
