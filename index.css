@@ -125,22 +125,22 @@ body{
 .rbtn:nth-child(2){
   background:white;
   color: #ed0331;
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 .rbtn:nth-child(2):hover{
-  background-color: #ed0331;
-  color: white;
+  opacity: 0.6;
+  color:#212121;
   transform: scale(1.2);
 }
 .rbtn:nth-child(1){
  
   background-color: #ed0331;
   color: white;
-  transition: 0.3s ease-in;
+  transition: 0.2s ease-in;
 }
 .rbtn:nth-child(1):hover{
-  background:white;
-  color: #ed0331;
+  opacity:0.6;
+  color:#212121;
   transform: scale(1.2);
   
 }
