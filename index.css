@@ -403,7 +403,7 @@ color: #c3073f;
 
 } 
 .accordion p{
-  color: #c3073f;
+  color:#222222;
   font-size: 12px;
   } 
 @media all and (min-width:768px) and (max-width: 1104px){
