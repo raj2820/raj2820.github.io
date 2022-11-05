@@ -472,13 +472,13 @@ width: 100%;
     #edu-details{
       padding-top:0px;
     }
-    #skill-set{
+    /* #skill-set{
    
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,auto);
    
     
-    }
+    } */
     .gitHub{
       grid-template-columns: 1fr;
       grid-template-rows: (3,auto);
@@ -541,6 +541,7 @@ grid-template-columns: repeat(3,1fr);
    
     
     }
+    } */
     #edu-details h2{
      font-size: 25px;
     }
