@@ -1,6 +1,6 @@
 # raj2820.github.io
 
-<h1>Portfolio<h1>
+<h1>Portfolio</h1>
 
 <ul>
 Tech Stack :-
@@ -8,5 +8,5 @@ Tech Stack :-
 <li> CSS  </li>
 <li> JavaScript </li>
 <li> Bootstrap </li>
-\
+
 </ul>
