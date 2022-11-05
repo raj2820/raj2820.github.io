@@ -485,10 +485,13 @@ width: 100%;
       gap: 20px;
   }
   .gitHub>div :first-child{
-      width: 80%;
+      width: 90%;
   }
   .gitHub>div :second-child{
-      width: 80%;
+      width: 90%;
+  }
+  #graph{
+    width: 90%;
   }
    #projects-div{
     grid-template-columns: 1fr;
@@ -547,11 +550,14 @@ grid-template-columns: repeat(3,1fr);
       gap: 20px;
   }
   .gitHub>div :first-child{
-      width: 80%;
-  }
-  .gitHub>div :second-child{
-      width: 80%;
-  }
+    width: 90%;
+}
+.gitHub>div :second-child{
+    width: 90%;
+}
+#graph{
+  width: 90%;
+}
   #projects-div{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2,auto);
