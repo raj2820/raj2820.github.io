@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body{
-  background-color: white;
+  background-color:#222222;
   font-family: 'Roboto Mono', serif;
 }
     #container{
@@ -314,14 +314,14 @@ margin: auto;
 }
 #git img{
 
-  border: 1px solid #ed0331;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 border-radius: 15px;
 padding: 10px;
 }
-#git img:hover{
+/* #git img:hover{
   border: 1px solid #6F2232;
   cursor: pointer;
-}
+} */
 .gitHub{
   width: 80%;
   margin: auto;
