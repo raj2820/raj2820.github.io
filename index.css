@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body{
-  background-color: #1A1A1D;
+  background-color: white;
   font-family: 'Roboto Mono', serif;
 }
     #container{
@@ -16,7 +16,7 @@ body{
   color: black;
     position: absolute;
     }
- 
+
 .navbar a{
   color:white;
 }
@@ -308,17 +308,18 @@ margin: auto;
 }
 #git{
   width: 100%;
-  background-image: linear-gradient(180deg,#6F2232, #1A1A1D);
+ background-color: white;
  padding-top: 20px;
  padding-bottom: 40px;
 }
 #git img{
-  border: 1px solid white;
+
+  border: 1px solid #ed0331;
 border-radius: 15px;
 padding: 10px;
 }
 #git img:hover{
-  border: 1px solid #644f4f;
+  border: 1px solid #6F2232;
   cursor: pointer;
 }
 .gitHub{
@@ -371,6 +372,12 @@ gap: 20px;
 #projects-div a:hover{
   color:#222222;
 }
+#projects-div svg{
+  color: white;
+}
+#projects-div svg:hover{
+  color:#222222;
+}
 .offcanvas-body{
   display: flex;
 justify-content: center;
@@ -406,6 +413,28 @@ color: #c3073f;
   color:#222222;
   font-size: 12px;
   } 
+#contact{
+  background-image: linear-gradient(180deg,#6F2232, #1A1A1D);
+  padding-top: 150px;
+  padding-bottom:100px ;
+}
+  .contact-parent{
+    width: 90%;
+    margin: auto;
+   
+    display: grid;
+grid-template-columns: repeat(5,1fr);
+gap: 20px;
+
+text-align: center;
+color: white;
+  }
+  .contact-parent a{
+    color: white;
+  }
+  .contact-parent a:hover{
+    color:#646161
+  }
 @media all and (min-width:768px) and (max-width: 1104px){
   /*  #footer{
 width: 100%;
@@ -461,6 +490,10 @@ width: 100%;
 
 
 
+   }
+   .contact-parent{
+   
+grid-template-columns: repeat(3,1fr);
    }
 }
 
@@ -519,7 +552,12 @@ width: 100%;
 
 
 
-   }
+
+  }
+  .contact-parent{
+   
+    grid-template-columns: repeat(2,1fr);
+       }
 }
 @media only screen and (max-width: 518px)  { 
   #name h1{
@@ -573,4 +611,8 @@ width: 100%;
   
   
      }
+     .contact-parent{
+   
+      grid-template-columns: repeat(1,1fr);
+         }
 }
