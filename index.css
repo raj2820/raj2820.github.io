@@ -1,7 +1,7 @@
 #to-top{
     width: 40px;
     height: 40px;
-    background-color: #6ca12b;
+    background-color:#144c8c;
     position: fixed;
     top:93%;
     bottom: 0;
@@ -147,8 +147,8 @@ right: 0;
     transform: scale(1.1);
   }
   .rbtn:nth-child(1){
-   
-    background-color:#6ca12b;
+   background-color: #144c8c;
+    /* background-color:#6ca12b; */
     color: white;
     transition: 0.3s ease-in;
   }
@@ -420,7 +420,7 @@ right: 0;
     padding: 10px;
   }
   #projects-div>div img{
-    border: 1px solid #6ca12b;
+    border: 1px solid #b5d1e2;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding: 10px;
