@@ -67,7 +67,23 @@ right: 0;
     font-size: 50px;
     color: white;
   }
+#call{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#call img{
+  width: 26px;
+}
 
+#phone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#phone img{
+  width: 27px;
+}
 #top-section{
     position: relative;
     width: 100%;
@@ -82,6 +98,7 @@ right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
   #intro{
     /* background-color: #4097e5; */
@@ -251,7 +268,7 @@ right: 0;
   #skill{
     width: 100%;
    background-color:rgb(240, 243, 241);
-   padding-top: 10px;
+   padding-top: 30px;
    padding-bottom: 60px;
   }
   #skill-in{
@@ -306,13 +323,13 @@ right: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  padding-top: 40px;
+  padding-top: 1px;
     width: 100%;
     background-color: white;
 
   }
   #carousel-container{
-    width: 40%;
+    width: 60%;
     margin: auto;
     height: 100%;
     margin-top: 40px;
