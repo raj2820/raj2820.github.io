@@ -301,7 +301,7 @@ right: 0;
     /* background: white; */
   }
   #proje{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(programmer.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(pal.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
