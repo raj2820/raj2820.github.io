@@ -78,7 +78,11 @@ right: 0;
     background-size: cover;
     z-index: 999;
 }
-
+#desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   #intro{
     /* background-color: #4097e5; */
     /* background-image: linear-gradient(180deg, #6F2232,#1A1A1D); */
@@ -164,22 +168,22 @@ right: 0;
     border: 1px solid white;
   } */
   .profile-pic{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: auto;
     margin: auto;
     background-color: #9CADA4;
-   
-  padding: 5px;
-  z-index: 99;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 30%;
-  border-top-left-radius: 30%;
-  border-top-right-radius: 50%;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+ border-radius: 70%;
+ 
   }
   .profile-pic img{
   width: 100%;
+  margin: auto;
   border-radius: 50%;
-  transition: transform 1s;
+  overflow: hidden;
+
   }
 
 
