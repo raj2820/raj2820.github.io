@@ -98,8 +98,12 @@ right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  line-height: 32px;
+/* transition: 0.3s ease-in; */
 }
+/* #desc:hover{
+  transform: scale(1.2);
+} */
   #intro{
     /* background-color: #4097e5; */
     /* background-image: linear-gradient(180deg, #6F2232,#1A1A1D); */
@@ -188,12 +192,16 @@ right: 0;
     width: 300px;
     height: auto;
     margin: auto;
-    background-color: #9CADA4;
+    background-color:#144c8c;
    display: flex;
    align-items: center;
    padding: 10px;
  border-radius: 70%;
  
+  }
+  .profile-pic:hover{
+background-color: #38689e;
+
   }
   .profile-pic img{
   width: 100%;
