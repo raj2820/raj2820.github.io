@@ -11,13 +11,15 @@
     justify-content: center;
     align-items: center;
     transition: 0.3 ease-in;
+    opacity: 0.8;
+    border-radius: 25px;
 }
 #to-top a{
 color: white;
 font-weight: 600;
 }
 #to-top:hover{
-    opacity: 0.8;
+    opacity: 1;
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -248,9 +250,13 @@ background-color: #38689e;
     width: 100%;
    
   }
+  .acbg h6:hover{
+    color: #144c8c;
+  }
   #edu-details{
     padding-top: 90px;
   }
+
   #edu-details div{
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -433,9 +439,9 @@ background-color: #38689e;
     border-top-right-radius: 15px;
     padding: 10px;
   }
-  #projects-div>div:hover{
+  /* #projects-div>div:hover{
    border: 1px solid  #676565;
-  }
+  } */
   #projects-div img{
     width: 100%;
   }
@@ -449,7 +455,7 @@ background-color: #38689e;
     color: #222222;
   }
   #projects-div svg:hover{
-    color:#6e6d6d;
+    color:#144c8c;
   }
 #bottom-section{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(github.jpg);
