@@ -87,14 +87,14 @@ right: 0;
   width: 27px;
 }
 #top-section{
-    position: relative;
+    /* position: static; */
     width: 100%;
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(coffee.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 999;
+    /* z-index: 999; */
 }
 #desc{
   display: flex;
