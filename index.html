@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raj Shinde</title>
     <link rel="shortcut icon" href="rajlogo.jpg" width="44px" height="44px" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+ />
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
@@ -24,29 +28,31 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" id="hov" aria-current="page" href="#" style="color: white;">Home</a>
-            
-               
-                  <li class="nav-item">
-                    <a class="nav-link active" id="hov" aria-current="page" href="#about" data-scroll style="color: white;">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" id="hov" aria-current="page" href="#projects-div" data-scroll style="color:white;"> Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" id="hov" aria-current="page" href="https://drive.google.com/u/1/uc?id=1_SSPG2YMig4oLLk-WJih59G09mpSX92-&export=download " data-scroll style="color: white;">Resume</a>
-                  </li>
-                  <li class="nav-item">
+              <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row-reverse">
+                  <li class="nav-item p-2">
                     <a class="nav-link active" id="hov" aria-current="page" href="#contact" data-scroll style="color: white;" > Contacts</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item p-2">
                     <a class="nav-link active" id="hov" aria-current="page" href="#git" data-scroll style="color: white;"> Github-Stats</a>
                   </li>
-        white
-              
+             
+                  <li class="nav-item p-2">
+                    <a class="nav-link active" id="hov" aria-current="page" href="https://drive.google.com/u/1/uc?id=1_SSPG2YMig4oLLk-WJih59G09mpSX92-&export=download " data-scroll style="color: white;">Resume</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link active" id="hov" aria-current="page" href="#about" data-scroll style="color: white;">About</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link active" id="hov" aria-current="page" href="#projects-div" data-scroll style="color:white;"> Projects</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link active" id="hov" aria-current="page" href="#" style="color: white;">Home</a>
+                  </li>
+               
+                 
+        <!-- white -->
+                </ul>
               </div>
            
           </nav>
@@ -358,11 +364,11 @@
               <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(120 12 12)" />
               <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(240 12 12)" />
             </svg></a>
+           <div> <h6>Tech-Stack </h6></div>
            
            
            
-           
-           <div class="accordion accordion-flush" id="accordionFlushExample">
+           <!-- <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed acbg" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne3" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -397,7 +403,7 @@
             
                 </div>
             </div>
-          </div>
+          </div> -->
             </div>
 
 
@@ -501,6 +507,10 @@
           <img title="Raj's Git contribution Graph" alt="raj2820 Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=raj2820&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
          
          </div>
+         <div class="calendar">
+         
+          Loading the data just for you.
+      </div>
       </div>
       <div id="contact">
         <hr width="90%" style="margin: auto; color:white; margin-bottom: 40px;">
@@ -567,11 +577,9 @@
    
 </body>
 </html>
-<script src="index.js"></script>
-<script>
 
-  /* function alertDev(){
-  alert("website under development ,please visit after some time");
-  }
- onload.alertDev(); */
+<script>
+  GitHubCalendar(".calendar", "raj2820");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "raj2820", { responsive: true });
 </script>

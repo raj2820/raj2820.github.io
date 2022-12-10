@@ -521,6 +521,22 @@ background-color: #38689e;
         font-weight:lighter;
         text-decoration: none;
     }
+    /* .navbar-collapse{
+      display: flex;
+padding-left: 100px;
+justify-content:flex-end; 
+flex-direction: column;
+      width: 40%;
+      margin: auto;
+    
+      border: 1px solid red;
+    }  */
+    .navbar-collapse>ul{
+  
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    }
   @media all and (min-width:768px) and (max-width: 1104px){
     /*  #footer{
   width: 100%;
