@@ -452,6 +452,7 @@ background-color: #38689e;
   }
   #projects-div a{
     color: #222222;
+   
   }
   #projects-div a:hover{
     color:#6e6d6d;
@@ -536,6 +537,13 @@ flex-direction: column;
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    }
+    .proj-content{
+      margin-top: 10px;
+      text-align: justify;
+    }
+    .proj-content h6{
+      color: #144c8c;
     }
   @media all and (min-width:768px) and (max-width: 1104px){
     /*  #footer{
