@@ -522,6 +522,9 @@ background-color: #38689e;
         font-weight:lighter;
         text-decoration: none;
     }
+    .calendar{
+      display: block;
+    }
     /* .navbar-collapse{
       display: flex;
 padding-left: 100px;
