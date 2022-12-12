@@ -287,8 +287,8 @@ background-color: #38689e;
   #skill{
     width: 100%;
    background-color:rgb(240, 243, 241);
-   padding-top: 30px;
-   padding-bottom: 60px;
+   padding-top: 60px;
+   padding-bottom: 90px;
   }
   #skill-in{
     width: 100%;
@@ -367,7 +367,7 @@ background-color: #38689e;
     width: 100%;
   
    padding-top: 20px;
-   padding-bottom: 40px;
+   padding-bottom: 80px;
   }
   #git img{
   
@@ -522,9 +522,12 @@ background-color: #38689e;
         font-weight:lighter;
         text-decoration: none;
     }
-    .calendar{
-      display: block;
+    /* .calendar span{
+     color: white;
     }
+    .text-muted{
+      color: white;
+    } */
     /* .navbar-collapse{
       display: flex;
 padding-left: 100px;
