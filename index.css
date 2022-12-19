@@ -551,7 +551,7 @@ flex-direction: column;
     .proj-content h6{
       color: #144c8c;
     }
-  @media all and (min-width:768px) and (max-width: 1104px){
+  @media all and (min-width:768px) and (max-width: 1000px){
     /*  #footer{
   width: 100%;
       }*/
