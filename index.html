@@ -38,7 +38,7 @@
                   </li>
              
                   <li class="nav-item p-2">
-                    <a class="nav-link " id="hov" aria-current="page" href="https://drive.google.com/u/1/uc?id=1_SSPG2YMig4oLLk-WJih59G09mpSX92-&export=download " data-scroll style="color: white;">Resume</a>
+                    <a class="nav-link " onclick="resume()" id="hov" aria-current="page" href="https://drive.google.com/u/1/uc?id=1_SSPG2YMig4oLLk-WJih59G09mpSX92-&export=download " data-scroll style="color: white;">Resume</a>
                   </li>
                   <li class="nav-item p-2">
                     <a class="nav-link " id="hov" aria-current="page" href="#about" data-scroll style="color: white;">About</a>
@@ -63,7 +63,7 @@
                       <h1 style="color:#545454">RAJ RANDHIR SHINDE</h1>
                       <H3 style="color:#545454">WEB DEVELOPER | JAVA BACKEND</H3>
                       <div id="res-button">
-                      <button    class="rbtn"><a style="text-decoration: none; color:white" href="https://drive.google.com/u/1/uc?id=1_SSPG2YMig4oLLk-WJih59G09mpSX92-&export=download " target="_blank">Resume</a> </button>
+                      <button onclick="resume()"   class="rbtn"><a style="text-decoration: none; color:white" href="https://drive.google.com/u/1/uc?id=1_SSPG2YMig4oLLk-WJih59G09mpSX92-&export=download " target="_blank">Resume</a> </button>
                       <button  class="rbtn" ><a aria-current="page" href="#contact" data-scroll style="color:white ;text-decoration: none;">Contact</a></button>
                     </div>
                     </div>
@@ -630,6 +630,13 @@
 </html>
 
 <script>
+
+function resume(){
+  // window.location.href="https://drive.google.com/file/d/1_SSPG2YMig4oLLk-WJih59G09mpSX92-/view?usp=sharing";
+  window.open("https://drive.google.com/file/d/1_SSPG2YMig4oLLk-WJih59G09mpSX92-/view?usp=sharing","_blank")
+}
+
+
   GitHubCalendar(".calendar", "raj2820");
   // or enable responsive functionality
   GitHubCalendar(".calendar", "raj2820", { responsive: true });
